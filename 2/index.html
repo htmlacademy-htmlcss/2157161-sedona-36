@@ -8,11 +8,8 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-
+        <img class="logo" src="#" alt="Логотип седона">
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <img class="logo" src="#" alt="Логотип седона">
-          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#" >Главная</a>
           </li>
@@ -41,7 +38,6 @@
             </a>
           </li>
         </ul>
-
       </nav>
     </header>
 
@@ -116,15 +112,17 @@
       <section class="search">
         <h2 class="search-heading">Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="search-button" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        <a class="button" href="catalog.html">Поиск гостиницы в седоне</a>
       </section>
 
-      <section class="subscribe">
-        <h2 class="subscribe-heading">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-
-        <input class="My-email" placeholder="Ваш e-mail">
-        <button class="button" type="submit">Подписаться</button>
+      <section class="newsletter">
+        <h2 class="footer-newsletter-heading">Подпишитесь на рассылку</h2>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="newsletter-email">email</label>
+          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="button newsletter-button" type="submit">
+            <span class="visually-hidden">Отправить</span>
+          </button>
       </section>
     </main>
 
