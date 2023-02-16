@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.page-header {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.main-index {
+    color: #000000;
+    background-color: #ffffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.sedona {
+    text-align: center;
+}
+
+.sedona-heading {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sedona p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.advantages {
+    text-align: center;
+}
+
+.invitation {
+    text-align: center;
+}
+
+.invitation-heading {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.invitation p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 400;
+}
+
+
+.contains-list {
+    text-align: center;
+
+}
+
+.contains-heading {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contains p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-heading {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.search p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.page-footer {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.footer-contacts-phone {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+}
