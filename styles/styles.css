@@ -30,6 +30,17 @@ body {
     background-color: #ffffff;
 }
 
+/* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} */
+
 .page-header {
     background: #ffffff;
     color: #000000;
@@ -42,9 +53,11 @@ body {
 }
 
 .navigation-list {
+    display: flex;
     width: 600px;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .navigation-user {
@@ -52,7 +65,14 @@ body {
     margin-left: auto;
 }
 
+.navigation-user .navigation-link {
+    min-width: 16px;
+    min-height: 22px;
+}
+
 .navigation-link {
+    display: block;
+    padding: 20px 28px;
     font-family: "PT Sans", sans-serif;
     line-height: 24px;
     font-weight: 700;
@@ -87,6 +107,7 @@ body {
 .logo {
     display: block;
     margin: 0 auto;
+    margin-top: 51px;
 }
 
 .sedona {
