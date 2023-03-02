@@ -30,7 +30,7 @@ body {
     background-color: #ffffff;
 }
 
-/* .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -39,7 +39,7 @@ body {
     border: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-} */
+}
 
 .page-header {
     color: #000000;
@@ -64,6 +64,7 @@ body {
     margin-left: 170px;
     padding: 0;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .navigation-user {
@@ -113,13 +114,19 @@ body {
     height: 485px;
 }
 
-
+.logo-sedona {
+    margin-left: 371px;
+    margin-top: 51px;
+    margin-bottom: 64px;
+}
 
 .sedona {
     text-align: center;
+    margin-bottom: 21px;
 }
 
 .sedona-heading {
+    margin-top: 69px;
     font-size: 30px;
     line-height: 36px;
     color: #000000;
@@ -132,11 +139,13 @@ body {
     line-height: 26px;
     color: #000000;
     font-weight: 400;
+    margin-top: 25px;
 }
 
 .advantages-list {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -146,6 +155,7 @@ body {
 }
 
 .invitation-heading {
+    margin-top: 64px;
     font-size: 30px;
     line-height: 36px;
     color: #000000;
@@ -154,6 +164,7 @@ body {
 }
 
 .invitation p {
+    margin-bottom: 146px;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
@@ -162,6 +173,7 @@ body {
 
 
 .contains-list {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -174,7 +186,20 @@ body {
     height: 385px;
 }
 
+/* .logo-home {
+    margin-bottom: 30px;
+}
+
+.logo-food {
+    margin-bottom: 31px;
+}
+
+.logo-souvenir {
+    margin-bottom: 28px;
+} */
+
 .contains-heading {
+    margin-bottom: 30px;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
@@ -183,6 +208,7 @@ body {
 }
 
 .contains p {
+    margin-bottom: 177px;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
@@ -194,6 +220,7 @@ body {
 }
 
 .search-heading {
+    margin-bottom: 20px;
     font-size: 30px;
     line-height: 36px;
     color: #000000;
@@ -201,28 +228,66 @@ body {
 }
 
 .search p {
+    margin-bottom: 20px;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
     font-weight: 400;
 }
 
+.newsletter {
+    text-align: center;
+    width: 1200px;
+    height: 415px;
+}
+
+.newsletter-heading {
+    margin-top: 192px;
+    font-size: 30px;
+}
+
+.newsletter p {
+    margin-top: 20px;
+    margin-bottom: 54px;
+    font-size: 22px;
+}
+
 .page-footer {
-    background-color: #ffffff;
     color: #000000;
 }
 
 .page-footer-container {
+    margin-top: 50px;
+}
+
+.page-footer-container {
+    padding-top: 45px;
     display: flex;
     width: 1200px;
     height: 120px;
     margin: 0 auto;
-
 }
 
 .footer-social {
     width: 142px;
     margin-right: 237px;
+}
+
+.footer-social-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.footer-social-item {
+    margin-right: 26px;
+}
+
+.footer-contacts {
+    margin: 0;
+    padding: 0;
 }
 
 .footer-contacts-phone {
@@ -232,9 +297,14 @@ body {
     color: #000000;
     text-decoration: none;
     font-style: normal;
-    margin-right: 236px;
 }
 
 .footer-logo-htmlacadmey {
     max-width: 115px;
+
+}
+
+.image-logo-htmlacademy {
+    margin-left: 235px;
+    margin-right: 70px;
 }
