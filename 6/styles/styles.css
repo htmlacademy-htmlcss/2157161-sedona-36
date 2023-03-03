@@ -1,0 +1,310 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.page-header {
+    color: #000000;
+}
+
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    display: flex;
+    width: 600px;
+    margin: 0;
+    margin-left: 170px;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.navigation-user {
+    width: 300px;
+    margin-left: auto;
+}
+
+.navigation-user .navigation-item {
+    margin-left: -20px;
+}
+
+.navigation-user .navigation-link {
+    min-width: 16px;
+    min-height: 22px;
+}
+
+.navigation-link {
+    display: block;
+    padding: 20px 28px;
+    font-family: "PT Sans", sans-serif;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+
+.main-index {
+    color: #000000;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.image-index-background {
+    background-image: url(../images/index-background.jpg);
+    width: 1200px;
+    height: 485px;
+}
+
+.logo-sedona {
+    margin-left: 371px;
+    margin-top: 51px;
+    margin-bottom: 64px;
+}
+
+.sedona {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.sedona-heading {
+    margin-top: 69px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sedona p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.invitation {
+    text-align: center;
+}
+
+.invitation-heading {
+    margin-top: 64px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.invitation p {
+    margin-bottom: 146px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 400;
+}
+
+
+.contains-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+
+}
+
+.contains-item {
+    width: 400px;
+    height: 385px;
+}
+
+/* .logo-home {
+    margin-bottom: 30px;
+}
+
+.logo-food {
+    margin-bottom: 31px;
+}
+
+.logo-souvenir {
+    margin-bottom: 28px;
+} */
+
+.contains-heading {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contains p {
+    margin-bottom: 177px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.search p {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.newsletter {
+    text-align: center;
+    width: 1200px;
+    height: 415px;
+}
+
+.newsletter-heading {
+    margin-top: 192px;
+    font-size: 30px;
+}
+
+.newsletter p {
+    margin-top: 20px;
+    margin-bottom: 54px;
+    font-size: 22px;
+}
+
+.page-footer {
+    color: #000000;
+}
+
+.page-footer-container {
+    margin-top: 50px;
+}
+
+.page-footer-container {
+    padding-top: 45px;
+    display: flex;
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.footer-social {
+    width: 142px;
+    margin-right: 237px;
+}
+
+.footer-social-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.footer-social-item {
+    margin-right: 26px;
+}
+
+.footer-contacts {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contacts-phone {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-logo-htmlacadmey {
+    max-width: 115px;
+
+}
+
+.image-logo-htmlacademy {
+    margin-left: 235px;
+    margin-right: 70px;
+}
