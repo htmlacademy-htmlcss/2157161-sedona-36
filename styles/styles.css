@@ -142,12 +142,29 @@ body {
     margin-top: 25px;
 }
 
+.advantages {
+    margin-top: 90px;
+}
+
 .advantages-list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.advantages-item {
+
+}
+
+.advantages-description {
+    width: 400px;
+    height: 385px;
+}
+
+.advantages-image {
+    display: block;
 }
 
 .invitation {
