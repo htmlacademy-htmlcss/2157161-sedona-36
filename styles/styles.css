@@ -331,7 +331,7 @@ body {
 }
 
 .newsletter {
-    background-image: url(../images/background-photo-2.png);
+    background-image: url(../images/mountains-1.jpg);
     text-align: center;
     width: 1200px;
     height: 415px;
@@ -392,4 +392,12 @@ body {
 
 .image-logo-htmlacademy {
     margin: 49px 70px 39px 232px;
+}
+
+/* Стили для catalog.html  */
+
+.filter {
+    background: url(../images/mountains-2.jpg) no-repeat;
+    width: 1200px;
+    height: 412px;
 }
