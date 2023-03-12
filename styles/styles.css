@@ -330,14 +330,14 @@ body {
     font-weight: 400;
 }
 
-.newsletter {
+.newsletter.main {
     background-image: url(../images/mountains-1.jpg);
     text-align: center;
     width: 1200px;
     height: 415px;
 }
 
-.newsletter-heading {
+.newsletter h2 {
     margin: 0;
     padding: 0;
     padding-top: 96px;
@@ -355,6 +355,7 @@ body {
 }
 
 .page-footer {
+    background-color: #ffffff;
     width: 1200px;
     height: 120px;
 }
@@ -400,4 +401,24 @@ body {
     background: url(../images/mountains-2.jpg) no-repeat;
     width: 1200px;
     height: 412px;
+}
+
+.catalog {
+    width: 1200px;
+    height: 1235px;
+}
+
+.newsletter.catalog {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 415px;
+    text-align: center;
+}
+
+.newsletter.catalog h2 {
+    color: #000000;
+}
+
+.newsletter.catalog p {
+    color: #000000;
 }
