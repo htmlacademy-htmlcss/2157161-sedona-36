@@ -197,7 +197,7 @@ body {
     background-color: #83B3D31F;
 }
 
-.advantages-heading {
+.advantages h2 {
     margin: 0;
     padding: 0;
     padding-top: 113px;
@@ -235,7 +235,7 @@ body {
     margin-top: -45px;
 }
 
-.invitation-heading {
+.invitation h2 {
     padding-top: 64px;
     font-size: 30px;
     line-height: 36px;
@@ -355,7 +355,6 @@ body {
 }
 
 .page-footer {
-    background-color: #ffffff;
     width: 1200px;
     height: 120px;
 }
@@ -397,7 +396,7 @@ body {
 
 /* Стили для catalog.html  */
 
-.filter {
+/* .filter {
     background: url(../images/mountains-2.jpg) no-repeat;
     width: 1200px;
     height: 412px;
@@ -421,4 +420,4 @@ body {
 
 .newsletter.catalog p {
     color: #000000;
-}
+} */
