@@ -135,7 +135,7 @@ body {
     text-align: center;
 }
 
-.sedona-heading {
+.sedona h2 {
     margin: 0;
     padding: 0;
     padding-top: 69px;
@@ -155,8 +155,6 @@ body {
     padding-bottom: 69px;
 }
 
-.advantages {
-}
 
 .advantages-list {
     display: flex;
@@ -361,6 +359,7 @@ body {
 
 .page-footer-container {
     display: flex;
+    margin: 0 auto;
 }
 
 .footer-social-list {
@@ -395,6 +394,11 @@ body {
 }
 
 /* Стили для catalog.html  */
+
+.page-container-catalog {
+    width: 1060px;
+    margin: 0 auto;
+}
 
 /* .filter {
     background: url(../images/mountains-2.jpg) no-repeat;
